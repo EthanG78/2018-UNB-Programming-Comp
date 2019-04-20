@@ -1,13 +1,15 @@
+# Challenge Three: Ice Cream Ordering 
+---
 You decide that for your summer job, you will create a small business and sell ice cream cones. You need to order enough ice cream to cover for the whole month of July, based on some daily estimates. For simplicity here, we will have only 3 flavors: vanilla, chocolate, and cookie dough. The cones can be of 1 scoop or 2 scoops. The 2 scoops ones can be of a single flavor only, or be a mix: vanilla-chocolate or vanilla-cookie-dough. In the input (see the example input below), you get the estimate of the number of cones to be sold per day of each type, in the following order:</br>
 
-- # 1-scoop vanilla cones</br>
-- # 2-scoops vanilla cones</br>
-- # 1-scoop chocolate cones</br>
-- # 2-scoops chocolate cones</br>
-- # 1-scoop cookie-dough cones</br>
-- # 2-scoops cookie-dough cones</br>
-- # vanilla-chocolate cones</br>
-- # vanilla-cookie-dough cones</br>
+- 1-scoop vanilla cones</br>
+- 2-scoops vanilla cones</br>
+- 1-scoop chocolate cones</br>
+- 2-scoops chocolate cones</br>
+- 1-scoop cookie-dough cones</br>
+- 2-scoops cookie-dough cones</br>
+- vanilla-chocolate cones</br>
+- vanilla-cookie-dough cones</br>
 
 Using such estimates, you want to know how many tubs of ice cream of each flavor (vanilla chocolate, and cookie-dough - in this order) you need to order for the whole month of July. FOr your information, there are approximately 96 scoops of ice cream in a "3-gallon" tub (approx. 11.3 liters). And just to be on the safe side, you decide to order for 5% more scoops than needed, just in case sales are higher than predicted.</br>
 
