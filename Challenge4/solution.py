@@ -6,7 +6,7 @@ def main():
 	#words repeated more than twice throughout the input
 	words = 0
 
-	#input.split(".") returns a list of the input split at the periods. 
+	#input.split(".") returns a list of the input split at the periods.  
 	#access the first index of this list for the first sentence.
 	firstSentence = input.split(".")[0] 
 	#print(firstSentence)
