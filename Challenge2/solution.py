@@ -1,5 +1,7 @@
+import sys
+
 def main():
-	f = open('2.in', 'r')
+	f = open(sys.argv[1], "r")
 
 	smallestNum = 20.0
 	z = 0

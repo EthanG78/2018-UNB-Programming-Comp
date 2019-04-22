@@ -1,10 +1,11 @@
 from math import ceil
+import sys
 
 def tubs(scoops):
 	return (((scoops * 1.05) * 31) / 96)
 
 def main():
-	f = open('3.in', 'r')
+	f = open(sys.argv[1], "r")
 
 	vanilla_scoops, chocolate_scoops, cookie_dough_scoops = 0,0,0
 

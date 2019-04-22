@@ -1,5 +1,7 @@
+import sys
+
 def main():
-	f = open('4.in', 'r')
+	f = open(sys.argv[1], "r")
 
 	input = f.read()
 

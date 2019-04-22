@@ -1,6 +1,4 @@
-import time
-#for timing execution of script
-start = time.time()
+import sys
 
 def weight_division(x):
 	weight = float(x)
@@ -17,7 +15,7 @@ def weight_division(x):
 		return("SUPER HEAVYWEIGHT")
 
 def main():
-	f = open("1.in", "r")
+	f = open(sys.argv[1], "r")
 	flines = f.readlines()
 	for x in flines:
 		print(weight_division(x))
@@ -25,6 +23,3 @@ def main():
 
 if __name__ == "__main__":
 	main()
-
-end = time.time()
-print(end - start)
