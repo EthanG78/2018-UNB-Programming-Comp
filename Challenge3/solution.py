@@ -5,7 +5,7 @@ def tubs(scoops):
 	return (((scoops * 1.05) * 31) / 96)
 
 def main():
-	f = open(sys.argv[1], "r")
+	f = sys.stdin.read().splitlines()
 
 	vanilla_scoops, chocolate_scoops, cookie_dough_scoops = 0,0,0
 
@@ -38,12 +38,6 @@ def main():
 	print(ceil(vanilla))
 	print(ceil(chocolate))
 	print(ceil(cookie_dough))
-
-	# print(vanilla_scoops)
-	# print(chocolate_scoops)
-	# print(cookie_dough_scoops)
-
-	f.close()
 
 if __name__ == '__main__':
 	main()

@@ -1,9 +1,7 @@
 import sys
 
 def main():
-	f = open(sys.argv[1], "r")
-
-	input = f.read()
+	input = sys.stdin.read()
 
 	#words repeated more than twice throughout the input
 	words = 0
@@ -25,7 +23,6 @@ def main():
 
 	print(str(words) + " out of 7")
 
-	f.close()
 
 if __name__ == '__main__':
 	main()

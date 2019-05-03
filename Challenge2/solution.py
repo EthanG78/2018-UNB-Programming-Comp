@@ -1,7 +1,7 @@
 import sys
 
 def main():
-	f = open(sys.argv[1], "r")
+	f = sys.stdin.read().splitlines()
 
 	smallestNum = 20.0
 	z = 0
@@ -14,8 +14,6 @@ def main():
 
 
 	print(z)
-
-	f.close()
 
 if __name__ == '__main__':
 	main()

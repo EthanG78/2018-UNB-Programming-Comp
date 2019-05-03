@@ -15,11 +15,9 @@ def weight_division(x):
 		return("SUPER HEAVYWEIGHT")
 
 def main():
-	f = open(sys.argv[1], "r")
-	flines = f.readlines()
-	for x in flines:
+	f = sys.stdin.read().splitlines()
+	for x in f:
 		print(weight_division(x))
-	f.close()
 
 if __name__ == "__main__":
 	main()

@@ -12,13 +12,11 @@ def gRate(strList):
 	return gRateAvg
 
 def main():
-	f = open(sys.argv[1], "r")
-
-	nFish = int(f.readline())
+	nFish = int(input()) #reads first line
 
 	for x in range(nFish):
-		adult = f.readline().split(" ")
-		child = f.readline().split(" ")
+		adult = input().split(" ")
+		child = input().split(" ")
 
 		if gRate(adult) > 0.05:
 			adultHealth = "healthy"
@@ -35,8 +33,6 @@ def main():
 			childHealth = "stable"
 
 		print("%s %s" % (adultHealth, childHealth))
-
-	f.close()
 
 if __name__ == '__main__':
 	main()
